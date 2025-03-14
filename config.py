@@ -80,7 +80,7 @@ USENET_SERVERS = [
 ]
 
 # Update
-UPSTREAM_REPO = "https://github.com/AeonOrg/Aeon-MLTB"
+UPSTREAM_REPO = "https://github.com/shivayt007/Aeon-MLTB"
 UPSTREAM_BRANCH = "main"
 
 # Leech
