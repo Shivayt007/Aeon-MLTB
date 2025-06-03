@@ -1,15 +1,16 @@
 # REQUIRED CONFIG
-BOT_TOKEN = ""  # Get this from @BotFather
-OWNER_ID = 0  # Your Telegram User ID (not username) as an integer
-TELEGRAM_API = 0  # Get this from my.telegram.org
-TELEGRAM_HASH = ""  # Get this from my.telegram.org
+BOT_TOKEN = "7561170191:AAEgI2YyYh2lqilYjqkls6I2qU2UfSdkdsU"
+OWNER_ID = 6118846384
+TELEGRAM_API = 25031723
+TELEGRAM_HASH = "5118037e6d6a03a2fc4a75262d72cef9"
 
+# Recommended for persisting settings, RSS feeds, and task history. Essential for some features.
+DATABASE_URL = "mongodb://mongo:e541d35b77af43968073@madurai_mogodb:27017/?tls=false"
 # Branding Settings
 CREDIT = "Powered by @aimmirror"  # Credit text shown in status messages and RSS feeds (default: "Powered by @aimmirror")
 OWNER_THUMB = "https://graph.org/file/80b7fb095063a18f9e232.jpg"  # Default thumbnail URL for owner (accepts Telegram file links)
 
 # SEMI-REQUIRED, WE SUGGEST TO FILL IT FROM MONGODB
-DATABASE_URL = ""  # MongoDB URI for storing user data and preferences
 
 # OPTIONAL CONFIG
 TG_PROXY = {}  # Proxy for Telegram connection, format: {'addr': 'ip:port', 'username': 'username', 'password': 'password'}
