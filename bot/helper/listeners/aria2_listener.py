@@ -1,7 +1,7 @@
 import contextlib
 from asyncio import create_task, sleep
 from time import time
-
+import os
 from bot import LOGGER, intervals, task_dict, task_dict_lock
 from bot.core.config_manager import Config
 from bot.core.torrent_manager import TorrentManager, aria2_name, is_metadata
