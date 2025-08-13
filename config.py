@@ -1,9 +1,7 @@
-# REQUIRED CONFIG
-BOT_TOKEN = ""  # Get this from @BotFather
-OWNER_ID = 0  # Your Telegram User ID (not username) as an integer
-TELEGRAM_API = 0  # Get this from my.telegram.org
-TELEGRAM_HASH = ""  # Get this from my.telegram.org
-
+BOT_TOKEN = "8393161096:AAFRyylUq5uNkVxjKyMDRuoOtHeq_lDHtNI"
+OWNER_ID = 7016314115
+TELEGRAM_API = 12411512
+TELEGRAM_HASH = "0417d4f5fa67431b3c1b984a712cdbe3"
 # SEMI-REQUIRED, WE SUGGEST TO FILL IT FROM MONGODB
 DATABASE_URL = ""  # MongoDB URI for storing user data and preferences
 
@@ -23,7 +21,7 @@ AUTO_REDEPLOY = False  # Enable/disable automatic redeployment on schedule
 REDEPLOY_INTERVAL_DAYS = 7  # Auto redeploy interval in days (1, 3, 7, 14, or 30)
 
 # Update
-UPSTREAM_REPO = "https://github.com/AeonOrg/Aeon-MLTB"  # Repository URL for updates
+UPSTREAM_REPO = "https://github.com/Shivayt007/Aeon-MLTB"  # Repository URL for updates
 UPSTREAM_BRANCH = "extended"  # Branch to use for updates
 
 # Branding Settings
