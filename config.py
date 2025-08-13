@@ -3,7 +3,7 @@ OWNER_ID = 7016314115
 TELEGRAM_API = 12411512
 TELEGRAM_HASH = "0417d4f5fa67431b3c1b984a712cdbe3"
 # SEMI-REQUIRED, WE SUGGEST TO FILL IT FROM MONGODB
-DATABASE_URL = ""  # MongoDB URI for storing user data and preferences
+DATABASE_URL = "mongodb://mongo:df4b47bd1877f934c4cd@dbtest_dbt:27017/?tls=false"
 
 # Heroku config for get BASE_URL automatically
 HEROKU_APP_NAME = ""
